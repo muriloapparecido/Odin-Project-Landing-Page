@@ -72,3 +72,42 @@ ul {
     width: 60%; 
     height: 175px; 
 }
+
+.random-info{
+    display: flex; 
+    flex-direction: column; 
+    justify-content : center;
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.random-info > .title{
+    font-size: 36px; 
+    color: #1F2937; 
+    font-weight: 900; 
+}
+
+.info {
+    display: flex; 
+    gap: 20px; 
+}
+
+.info-item{
+    display: flex; 
+    flex-direction: column; 
+    width: 160px; 
+    margin: 20px; 
+}
+
+.info-image{
+    width: 150px; 
+    height: 150px;
+    border: #3882F6 solid 3px; 
+    border-radius: 5px; 
+}
+
+.info-text{
+    font-size: 18px; 
+    color: #1F2937; 
+    text-align: center; 
+}
