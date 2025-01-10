@@ -1,0 +1,32 @@
+.body{
+    display: flex; 
+    flex-direction: column;
+}
+.header {
+    background-color: #1F2937; 
+    font: Roboto, sans-serif;
+    display: flex; 
+    justify-content: space-between; 
+    padding-left: 10%;
+    padding-right: 10%; 
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+    align-items: center; 
+    display: flex; 
+}
+
+.left-links {
+    gap: 5px; 
+    color: #F9FAF8; 
+    font-size: 24px; 
+    font-weight: bold; 
+}
+
+.right-links {
+    gap: 15px; 
+    color: #E5E7EB; 
+    font-size: 18px; 
+}
