@@ -90,13 +90,15 @@ ul {
 .info {
     display: flex; 
     gap: 20px; 
+
 }
 
 .info-item{
     display: flex; 
     flex-direction: column; 
     width: 160px; 
-    margin: 20px; 
+    margin: 10px; 
+    margin-top: 40px; 
 }
 
 .info-image{
@@ -110,4 +112,27 @@ ul {
     font-size: 18px; 
     color: #1F2937; 
     text-align: center; 
+}
+
+.quote {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #E5E7EB; 
+    padding: 10%; 
+    flex-direction: column; 
+}
+
+.quote-text{
+    color: #1F2937; 
+    font-size: 36px; 
+    font-style: light italic; 
+}
+
+.quote-author {
+    color: #1F2937; 
+    font-size: 24px; 
+    font-weight: bold;
+    margin-left: 60%; 
+    margin-top: 20px; 
 }
